@@ -1,0 +1,22 @@
+/*** SWIPE LIST OVERRIDES ***/
+.swipeable-list-item__leading-actions, 
+.swipeable-list-item__trailing-actions {
+  color: white;
+  font-size: 1.125rem; /* text-lg */
+  text-transform: uppercase;
+  font-weight: 700; /* font-bold */
+}
+
+.swipeable-list-item__leading-actions {
+  background-color: #2563eb; /* bg-blue-600 */
+}
+
+.swipeable-list-item__trailing-actions {
+  background-color: #db2777; /* bg-pink-600 */
+}
+
+.swipeable-list .swipe-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
